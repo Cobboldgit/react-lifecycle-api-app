@@ -29,7 +29,7 @@ class UsersClass extends Component {
       <div>
         {this.state.users.map((user) => {
           return (
-            <div key={user.id} style={{marginBottom: "40px", textAlign: 'center'}}>
+            <div key={user.id} style={{marginBottom: "30px", textAlign: 'center'}}>
               <h4>Name: {user.name}</h4>
               <p>Username: {user.username}</p>
               <p>Email: {user.email}</p>
